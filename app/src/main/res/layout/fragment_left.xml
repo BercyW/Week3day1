@@ -4,32 +4,24 @@
     android:layout_height="match_parent"
     tools:context="security.bercy.com.week3day1.LeftFragment"
     android:orientation="vertical"
-
-
     >
 
-   <Button
-       android:text="Tom Cruise"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:id="@+id/tomcruise"
-
-       />
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tom"
+        android:text="Tom Cruise"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_clooney"
         android:text="Clooney"
-        android:id="@+id/clooney"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-
         />
     <Button
-        android:text="willsmith"
-        android:id="@+id/willsmith"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:id="@+id/btn_will"
+        android:text="Will Smith"
         />
-
-
 </LinearLayout>
